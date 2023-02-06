@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define N 800
-#define SIZE 8
+#define SIZE 4
 
 pthread_t t[SIZE];
 
