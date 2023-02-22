@@ -69,8 +69,6 @@ int main(int argc, char *argv[]){
           }
           printf("main thread just create cid = %d tid = %ld\n", cid, tid[cid]);
           cid++;
-          
-
         }
 
 	close(lis_fd);
@@ -101,8 +99,6 @@ void process_request(void *t){
         m = write(tmp_fd, line, n);
         fflush(stdout);
     }
-    printf("end\n");
-
     fclose(file);
     close(tmp_fd);
 }
