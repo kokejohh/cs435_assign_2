@@ -1,6 +1,6 @@
 all:
-	gcc matrix_sequential.c -o seq.exe
-	gcc matrix_thread.c -o thr.exe -pthread
+	gcc matrixcal_seqential.c -o seq 
+	gcc matrixcal_thread.c -o thr -pthread
 clean:
-	rm seq.exe thr.exe
+	rm seq thr
 
